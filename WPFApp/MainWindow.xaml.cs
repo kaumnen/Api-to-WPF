@@ -70,5 +70,12 @@ namespace WPFApp
                 }
             }
         }
+
+        private void SunInformationButton_Click(object sender, RoutedEventArgs e)
+        {
+            SunInfo sunInfo = new SunInfo();
+
+            sunInfo.Show();
+        }
     }
 }
